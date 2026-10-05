@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "username": "admin",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy",
+      "displayName": "Admin",
+      "email": "admin@hmailinbox.com",
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00Z"
+    }
+  ]
+}

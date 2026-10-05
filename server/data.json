@@ -1,0 +1,1582 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "username": "admin",
+      "password": "$2a$10$QnUcPjxAcC4Le6FfXTUKBujXpgKEGQwe2x9eyRbHtLaRlBTANNSvO",
+      "displayName": "Admin",
+      "email": "admin@hmailinbox.com",
+      "role": "admin",
+      "createdAt": "2026-08-16T19:54:21.241Z"
+    }
+  ],
+  "smtps": [
+    {
+      "id": "smtp-1786912883970",
+      "name": "SMTP Gmail elhachimikarima583@gmail.com",
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "username": "elhachimikarima583@gmail.com",
+      "password": "rugdliakuwesrbzi",
+      "fromEmail": "elhachimikarima583@gmail.com",
+      "fromName": "Mr hachemy",
+      "replyTo": "Mrhachemy@gmail.com",
+      "dailyLimit": 2000,
+      "sentToday": 0,
+      "status": "active",
+      "healthScore": 100,
+      "createdAt": "2026-08-16T20:44:05.512Z",
+      "lastTested": "Just now"
+    },
+    {
+      "id": "smtp-1",
+      "name": "Gmail SMTP hinor0404@gmail.com",
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "username": "hinor0404@gmail.com",
+      "password": "dsem xxjw wqkm lryt",
+      "fromEmail": "hinor0404@gmail.com",
+      "fromName": "HMailInbox",
+      "replyTo": "hinor0404@gmail.com",
+      "dailyLimit": 500,
+      "sentToday": 0,
+      "status": "active",
+      "healthScore": 100,
+      "createdAt": "2026-08-16T19:54:21.259Z",
+      "lastTested": "Just now"
+    },
+    {
+      "id": "smtp-2",
+      "name": "Outlook SMTP",
+      "host": "smtp.office365.com",
+      "port": 587,
+      "secure": false,
+      "username": "",
+      "password": "",
+      "fromEmail": "",
+      "fromName": "HMailInbox",
+      "replyTo": "",
+      "dailyLimit": 1000,
+      "sentToday": 0,
+      "status": "active",
+      "healthScore": 100,
+      "createdAt": "2026-08-16T19:54:21.259Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp-1786920587536",
+      "name": "Bulk Send - 8/16/2026",
+      "senderName": "Alex Rivers | GrowthCorp",
+      "fromEmail": "elhachimikarima583@gmail.com",
+      "replyTo": "alex@growthcorp.com",
+      "subject": "Domain Acquisition Opportunity: ArtfulLawyer.com",
+      "bodyHtml": "Hi,\nI came across your work in the legal industry.\nI own the domain ArtfulLawyer.com and thought it could be a strong fit for a legal brand, content platform, educational initiative, or attorney-focused product.\nIt's a memorable .com name with strong branding potential in the legal space.\nLet me know if you'd be interested in discussing it.\nContact Us : \n- WhatsApp : +212600734765\n- Email : Mrhachemy@gmail.com \n\nBest regards",
+      "status": "completed",
+      "totalRecipients": 158,
+      "sentCount": 0,
+      "deliveredCount": 0,
+      "openedCount": 0,
+      "clickedCount": 0,
+      "bouncedCount": 0,
+      "smtpIds": [
+        "smtp-1786912883970"
+      ],
+      "delayMinSeconds": 2,
+      "delayMaxSeconds": 5,
+      "enableTrackingPixel": true,
+      "enableClickTracking": true,
+      "createdAt": "2026-08-16T22:51:40.336Z",
+      "completedAt": "2026-08-16T22:51:49.486Z"
+    },
+    {
+      "id": "camp-1786912440930",
+      "name": "ArtfulLawyer.com",
+      "senderName": "mr hachemy",
+      "fromEmail": "Mrhachemy@gmail.com",
+      "replyTo": "alex@growthcorp.com",
+      "subject": "Domain Acquisition Opportunity: ArtfulLawyer.com",
+      "bodyHtml": "Hi,\nI came across your work in the legal industry.\nI own the domain ArtfulLawyer.com and thought it could be a strong fit for a legal brand, content platform, educational initiative, or attorney-focused product.\nIt's a memorable .com name with strong branding potential in the legal space.\nLet me know if you'd be interested in discussing it.\nContact Us : \n- WhatsApp : +212600734765\n- Email : Mrhachemy@gmail.com \n\nBest regards",
+      "status": "completed",
+      "totalRecipients": 159,
+      "sentCount": 0,
+      "deliveredCount": 0,
+      "openedCount": 0,
+      "clickedCount": 0,
+      "bouncedCount": 0,
+      "smtpIds": [
+        "smtp-1786912883970",
+        "smtp-1"
+      ],
+      "delayMinSeconds": 2,
+      "delayMaxSeconds": 5,
+      "enableTrackingPixel": true,
+      "enableClickTracking": true,
+      "createdAt": "2026-08-16T20:36:03.860Z",
+      "completedAt": "2026-08-16T21:49:01.968Z"
+    }
+  ],
+  "lists": [
+    {
+      "id": "list-1786912222727",
+      "name": "ArtfulLawyer",
+      "description": "",
+      "subscribers": [
+        {
+          "id": "sub-1786914908341-0",
+          "name": "Subscriber 1",
+          "email": "petervanaulen@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908341-1",
+          "name": "Subscriber 2",
+          "email": "mariamateolaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908341-2",
+          "name": "Subscriber 3",
+          "email": "KarissaAndersonLaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908341-3",
+          "name": "Subscriber 4",
+          "email": "teriplagmann@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908341-4",
+          "name": "Subscriber 5",
+          "email": "sherylraeghezzi@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908341-5",
+          "name": "Subscriber 6",
+          "email": "Herringtonconsulting@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908341-6",
+          "name": "Subscriber 7",
+          "email": "Lawtrist@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908341-7",
+          "name": "Subscriber 8",
+          "email": "lawyer.ouhhabi@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908341-8",
+          "name": "Subscriber 9",
+          "email": "MikeAllnabulsi.Law@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-9",
+          "name": "Subscriber 10",
+          "email": "jerryhofferattorney@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-10",
+          "name": "Subscriber 11",
+          "email": "BRL1963@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-11",
+          "name": "Subscriber 12",
+          "email": "boekel@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-12",
+          "name": "Subscriber 13",
+          "email": "hildebrandlawpc@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-13",
+          "name": "Subscriber 14",
+          "email": "ourtinyfarmnc@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-14",
+          "name": "Subscriber 15",
+          "email": "thekohnlawfirm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-15",
+          "name": "Subscriber 16",
+          "email": "PiedmontTriadLaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-16",
+          "name": "Subscriber 17",
+          "email": "Herringtonconsulting@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-17",
+          "name": "Subscriber 18",
+          "email": "mgilbertlaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-18",
+          "name": "Subscriber 19",
+          "email": "ffwardlaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-19",
+          "name": "Subscriber 20",
+          "email": "mariamateolaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-20",
+          "name": "Subscriber 21",
+          "email": "plkerwingaddy@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-21",
+          "name": "Subscriber 22",
+          "email": "lakelandlegal@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-22",
+          "name": "Subscriber 23",
+          "email": "MyOmahaLawyer@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-23",
+          "name": "Subscriber 24",
+          "email": "littaabogados@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-24",
+          "name": "Subscriber 25",
+          "email": "kathrynbeamerpa@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-25",
+          "name": "Subscriber 26",
+          "email": "alejandroolitta@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-26",
+          "name": "Subscriber 27",
+          "email": "hildebrandlawpc@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-27",
+          "name": "Subscriber 28",
+          "email": "agcole41@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-28",
+          "name": "Subscriber 29",
+          "email": "danielhalllawyer@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-29",
+          "name": "Subscriber 30",
+          "email": "mfilia3@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-30",
+          "name": "Subscriber 31",
+          "email": "gordenlawlincoln@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-31",
+          "name": "Subscriber 32",
+          "email": "lawyerstalkingaboutdivorce@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-32",
+          "name": "Subscriber 33",
+          "email": "hamiltonw@law.ufl.edu",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-33",
+          "name": "Subscriber 34",
+          "email": "melissamays23@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-34",
+          "name": "Subscriber 35",
+          "email": "kramadanlaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-35",
+          "name": "Subscriber 36",
+          "email": "Sqelaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-36",
+          "name": "Subscriber 37",
+          "email": "itech.fit.official@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-37",
+          "name": "Subscriber 38",
+          "email": "Juanpluciano@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-38",
+          "name": "Subscriber 39",
+          "email": "hr.enbridge@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-39",
+          "name": "Subscriber 40",
+          "email": "conswellaglover7@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-40",
+          "name": "Subscriber 41",
+          "email": "unpluggedwithnickimarie@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-41",
+          "name": "Subscriber 42",
+          "email": "divorceandbeyondpod@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-42",
+          "name": "Subscriber 43",
+          "email": "jhmatty7@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-43",
+          "name": "Subscriber 44",
+          "email": "elizabethcoalitiontrickytray@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-44",
+          "name": "Subscriber 45",
+          "email": "JBDATHLAW@GMAIL.COM",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-45",
+          "name": "Subscriber 46",
+          "email": "reunitefoundation@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-46",
+          "name": "Subscriber 47",
+          "email": "unplugfit@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-47",
+          "name": "Subscriber 48",
+          "email": "Powerlegal@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-48",
+          "name": "Subscriber 49",
+          "email": "louis@lovethylawyer.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-49",
+          "name": "Subscriber 50",
+          "email": "tranfirm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-50",
+          "name": "Subscriber 51",
+          "email": "hunnitkmanagement@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-51",
+          "name": "Subscriber 52",
+          "email": "solimanlaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-52",
+          "name": "Subscriber 53",
+          "email": "davidbayteam@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908342-53",
+          "name": "Subscriber 54",
+          "email": "ettrickc@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-54",
+          "name": "Subscriber 55",
+          "email": "jamesebrittain@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-55",
+          "name": "Subscriber 56",
+          "email": "petervanaulen@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-56",
+          "name": "Subscriber 57",
+          "email": "johnshuntington@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-57",
+          "name": "Subscriber 58",
+          "email": "profjshuntington@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-58",
+          "name": "Subscriber 59",
+          "email": "bruce.coane@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-59",
+          "name": "Subscriber 60",
+          "email": "muhindo30@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-60",
+          "name": "Subscriber 61",
+          "email": "combs362@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-61",
+          "name": "Subscriber 62",
+          "email": "davislawfirminfo@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-62",
+          "name": "Subscriber 63",
+          "email": "barry.brandenburglawfirm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-63",
+          "name": "Subscriber 64",
+          "email": "rondonlegal@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-64",
+          "name": "Subscriber 65",
+          "email": "mahfuzlawr@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-65",
+          "name": "Subscriber 66",
+          "email": "infotheclinebelllawfirm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-66",
+          "name": "Subscriber 67",
+          "email": "hiringlabplus@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-67",
+          "name": "Subscriber 68",
+          "email": "info.ammogaoarugaylaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-68",
+          "name": "Subscriber 69",
+          "email": "kanneh.law.firm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-69",
+          "name": "Subscriber 70",
+          "email": "cshustle1@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-70",
+          "name": "Subscriber 71",
+          "email": "kanneh.law.firm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-71",
+          "name": "Subscriber 72",
+          "email": "samielawfirm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-72",
+          "name": "Subscriber 73",
+          "email": "djscharb1@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-73",
+          "name": "Subscriber 74",
+          "email": "nawelizard@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-74",
+          "name": "Subscriber 75",
+          "email": "taqdirlawassociates@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-75",
+          "name": "Subscriber 76",
+          "email": "nicolecamins01@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-76",
+          "name": "Subscriber 77",
+          "email": "jayellawtutorialservices@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-77",
+          "name": "Subscriber 78",
+          "email": "dominicanbarassoc@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-78",
+          "name": "Subscriber 79",
+          "email": "mccluskey@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-79",
+          "name": "Subscriber 80",
+          "email": "infotheclinebelllawfirm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-80",
+          "name": "Subscriber 81",
+          "email": "ic3.mcgill@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-81",
+          "name": "Subscriber 82",
+          "email": "legalpadelkader@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-82",
+          "name": "Subscriber 83",
+          "email": "katharsis37@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-83",
+          "name": "Subscriber 84",
+          "email": "mahfuzlawr@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-84",
+          "name": "Subscriber 85",
+          "email": "mignonelaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-85",
+          "name": "Subscriber 86",
+          "email": "stevenanthonylaw09@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-86",
+          "name": "Subscriber 87",
+          "email": "amoomokadhila@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-87",
+          "name": "Subscriber 88",
+          "email": "sissanilaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-88",
+          "name": "Subscriber 89",
+          "email": "shabnums2@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-89",
+          "name": "Subscriber 90",
+          "email": "lisag140@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-90",
+          "name": "Subscriber 91",
+          "email": "lawstudentreporters@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-91",
+          "name": "Subscriber 92",
+          "email": "hklawfirminternational@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-92",
+          "name": "Subscriber 93",
+          "email": "nedzatamurendeni@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-93",
+          "name": "Subscriber 94",
+          "email": "ic3.mcgill@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-94",
+          "name": "Subscriber 95",
+          "email": "sherylwinarick@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-95",
+          "name": "Subscriber 96",
+          "email": "aawcpboard@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-96",
+          "name": "Subscriber 97",
+          "email": "marc.hyman.sb@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-97",
+          "name": "Subscriber 98",
+          "email": "thebajlawgroup@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-98",
+          "name": "Subscriber 99",
+          "email": "Lesliercqn@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-99",
+          "name": "Subscriber 100",
+          "email": "Calebrichardwilliams@icloud.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-100",
+          "name": "Subscriber 101",
+          "email": "info@patrycjazielinska.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-101",
+          "name": "Subscriber 102",
+          "email": "Info@berlindecor.de",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-102",
+          "name": "Subscriber 103",
+          "email": "Info@nabeautyspa.de",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-103",
+          "name": "Subscriber 104",
+          "email": "Eliseheckendorf@web.de",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-104",
+          "name": "Subscriber 105",
+          "email": "Lanarosequeen@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-105",
+          "name": "Subscriber 106",
+          "email": "Leslyjaofficiel@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-106",
+          "name": "Subscriber 107",
+          "email": "Info@lucaimbimbo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-107",
+          "name": "Subscriber 108",
+          "email": "Lisa_rochon_333@hotmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-108",
+          "name": "Subscriber 109",
+          "email": "Info@michaelkolf.de",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-109",
+          "name": "Subscriber 110",
+          "email": "Metz@opticien-atol.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-110",
+          "name": "Subscriber 111",
+          "email": "Hello@carmengondard.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-111",
+          "name": "Subscriber 112",
+          "email": "Ahmedbounit3968@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-112",
+          "name": "Subscriber 113",
+          "email": "petervanaulen@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-113",
+          "name": "Subscriber 114",
+          "email": "mariamateolaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-114",
+          "name": "Subscriber 115",
+          "email": "KarissaAndersonLaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-115",
+          "name": "Subscriber 116",
+          "email": "teriplagmann@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-116",
+          "name": "Subscriber 117",
+          "email": "sherylraeghezzi@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-117",
+          "name": "Subscriber 118",
+          "email": "Herringtonconsulting@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-118",
+          "name": "Subscriber 119",
+          "email": "Lawtrist@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-119",
+          "name": "Subscriber 120",
+          "email": "MikeAllnabulsi.Law@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-120",
+          "name": "Subscriber 121",
+          "email": "jerryhofferattorney@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-121",
+          "name": "Subscriber 122",
+          "email": "BRL1963@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-122",
+          "name": "Subscriber 123",
+          "email": "boekel@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-123",
+          "name": "Subscriber 124",
+          "email": "hildebrandlawpc@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-124",
+          "name": "Subscriber 125",
+          "email": "ourtinyfarmnc@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-125",
+          "name": "Subscriber 126",
+          "email": "thekohnlawfirm@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-126",
+          "name": "Subscriber 127",
+          "email": "PiedmontTriadLaw@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-127",
+          "name": "Subscriber 128",
+          "email": "Herringtonconsulting@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-128",
+          "name": "Subscriber 129",
+          "email": "jcard4967@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-129",
+          "name": "Subscriber 130",
+          "email": "mamoses86@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-130",
+          "name": "Subscriber 131",
+          "email": "barbarathomas2280@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-131",
+          "name": "Subscriber 132",
+          "email": "sjimsimmons@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-132",
+          "name": "Subscriber 133",
+          "email": "skmariani@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-133",
+          "name": "Subscriber 134",
+          "email": "richardmurray416@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908343-134",
+          "name": "Subscriber 135",
+          "email": "markelgoodman0@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-135",
+          "name": "Subscriber 136",
+          "email": "antwan.booker11@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-136",
+          "name": "Subscriber 137",
+          "email": "paulmwehr@hotmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-137",
+          "name": "Subscriber 138",
+          "email": "maxxelite2020@icloud.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-138",
+          "name": "Subscriber 139",
+          "email": "filermxm@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-139",
+          "name": "Subscriber 140",
+          "email": "chrisguz72@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-140",
+          "name": "Subscriber 141",
+          "email": "crichards1973@aol.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-141",
+          "name": "Subscriber 142",
+          "email": "elonza_joyner@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-142",
+          "name": "Subscriber 143",
+          "email": "mhbjr8@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-143",
+          "name": "Subscriber 144",
+          "email": "stofberg.ben194@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-144",
+          "name": "Subscriber 145",
+          "email": "reinagian118@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-145",
+          "name": "Subscriber 146",
+          "email": "garyh_2000@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-146",
+          "name": "Subscriber 147",
+          "email": "ecornejo28@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-147",
+          "name": "Subscriber 148",
+          "email": "treygore@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-148",
+          "name": "Subscriber 149",
+          "email": "poolque75@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-149",
+          "name": "Subscriber 150",
+          "email": "li0211@hotmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-150",
+          "name": "Subscriber 151",
+          "email": "guy3304@hotmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-151",
+          "name": "Subscriber 152",
+          "email": "dancam40@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-152",
+          "name": "Subscriber 153",
+          "email": "diana.rogers47@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-153",
+          "name": "Subscriber 154",
+          "email": "firesticks2320@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-154",
+          "name": "Subscriber 155",
+          "email": "lornaheincy@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-155",
+          "name": "Subscriber 156",
+          "email": "itsperry@gmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-156",
+          "name": "Subscriber 157",
+          "email": "rockstone2771@yahoo.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        },
+        {
+          "id": "sub-1786914908344-157",
+          "name": "Subscriber 158",
+          "email": "matias28_16@hotmail.com",
+          "company": "",
+          "addedAt": "2026-08-16"
+        }
+      ],
+      "subscribersCount": 158,
+      "ispBreakdown": {
+        "gmail": 129,
+        "outlook": 5,
+        "yahoo": 11,
+        "other": 13
+      },
+      "createdAt": "2026-08-16T20:30:22.741Z"
+    }
+  ],
+  "warmups": [],
+  "templates": [],
+  "settings": {
+    "trackingBaseUrl": "http://localhost:3001",
+    "defaultDelayMin": 2,
+    "defaultDelayMax": 5,
+    "brandName": "HMailInbox"
+  },
+  "stats": {
+    "totalSent": 20,
+    "totalOpens": 1,
+    "totalClicks": 1,
+    "totalBounces": 41,
+    "sentToday": 0,
+    "lastResetDate": "2026-10-05"
+  },
+  "activityLog": [
+    {
+      "id": "act-1791226308134",
+      "action": "Test email to mohamadyoux99@gmail.com",
+      "module": "SMTP",
+      "timestamp": "2026-10-05T18:51:48.134Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1791226234319",
+      "action": "Login",
+      "module": "Auth",
+      "timestamp": "2026-10-05T18:50:34.319Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786920709495",
+      "action": "Dispatch \"Bulk Send - 8/16/2026\" completed",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T22:51:49.495Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786920700338",
+      "action": "Save campaign \"Bulk Send - 8/16/2026\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T22:51:40.338Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786920700304",
+      "action": "Dispatch stopped",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T22:51:40.304Z",
+      "status": "warning",
+      "details": ""
+    },
+    {
+      "id": "act-1786920609046",
+      "action": "Delete campaign \"ArtfulLawyer.com\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T22:50:09.046Z",
+      "status": "warning",
+      "details": ""
+    },
+    {
+      "id": "act-1786920505185",
+      "action": "Test email to mgilbertlaw@gmail.com",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T22:48:25.185Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916941971",
+      "action": "Dispatch \"ArtfulLawyer.com\" completed",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T21:49:01.971Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916924933",
+      "action": "Save campaign \"ArtfulLawyer.com\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T21:48:44.933Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916924898",
+      "action": "Dispatch stopped",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T21:48:44.898Z",
+      "status": "warning",
+      "details": ""
+    },
+    {
+      "id": "act-1786916827607",
+      "action": "Delete campaign \"test\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T21:47:07.607Z",
+      "status": "warning",
+      "details": ""
+    },
+    {
+      "id": "act-1786916705884",
+      "action": "Delete list",
+      "module": "Lists",
+      "timestamp": "2026-08-16T21:45:05.884Z",
+      "status": "warning",
+      "details": ""
+    },
+    {
+      "id": "act-1786916690143",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:44:50.143Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916674615",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:44:34.615Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916616973",
+      "action": "Save campaign \"ArtfulLawyer.com\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T21:43:36.973Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916606357",
+      "action": "Save campaign \"ArtfulLawyer.com\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T21:43:26.357Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916571292",
+      "action": "Save campaign \"ArtfulLawyer.com\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T21:42:51.292Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916467336",
+      "action": "Save campaign \"Dispatch - Domain Acquisition Opport\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T21:41:07.336Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916424468",
+      "action": "Test email to Mrhachemy@gmail.com",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:40:24.468Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916375996",
+      "action": "Test email to Mrhachemy@gmail.com",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:39:35.996Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916369636",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:39:29.636Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916077600",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:34:37.600Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916058697",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:34:18.697Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786916050810",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:34:10.810Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786915262668",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:21:02.668Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786915160615",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:19:20.615Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786915099920",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T21:18:19.920Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786914908553",
+      "action": "Save list \"ArtfulLawyer\"",
+      "module": "Lists",
+      "timestamp": "2026-08-16T21:15:08.553Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786913099560",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T20:44:59.560Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786913045521",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T20:44:05.521Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786912566444",
+      "action": "Dispatch \"Dispatch - Domain Acquisition Opport\" completed",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T20:36:06.444Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786912563863",
+      "action": "Save campaign \"Dispatch - Domain Acquisition Opport\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T20:36:03.863Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786912563816",
+      "action": "Dispatch stopped",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T20:36:03.816Z",
+      "status": "warning",
+      "details": ""
+    },
+    {
+      "id": "act-1786912540044",
+      "action": "Save campaign \"ArtfulLawyer.com\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T20:35:40.044Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786912222767",
+      "action": "Save list \"ArtfulLawyer\"",
+      "module": "Lists",
+      "timestamp": "2026-08-16T20:30:22.767Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786911911665",
+      "action": "Test email to Mrhachemy@gmail.com",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T20:25:11.665Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786911895465",
+      "action": "Save SMTP",
+      "module": "SMTP",
+      "timestamp": "2026-08-16T20:24:55.465Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786911723503",
+      "action": "Save list \"testtt\"",
+      "module": "Lists",
+      "timestamp": "2026-08-16T20:22:03.503Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786911644824",
+      "action": "Save campaign \"test\"",
+      "module": "Campaigns",
+      "timestamp": "2026-08-16T20:20:44.824Z",
+      "status": "success",
+      "details": ""
+    },
+    {
+      "id": "act-1786910094420",
+      "action": "Login",
+      "module": "Auth",
+      "timestamp": "2026-08-16T19:54:54.420Z",
+      "status": "success",
+      "details": ""
+    }
+  ]
+}
